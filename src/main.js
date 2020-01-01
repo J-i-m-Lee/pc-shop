@@ -8,7 +8,7 @@ Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
 
 axios.defaults.baseURL = '/api';
-axios.defaults.timeout = 8000;
+axios.defaults.timeout = 8000;3
 //请求拦截
 axios.interceptors.request.use(function (response) {
   let res = response.data;
